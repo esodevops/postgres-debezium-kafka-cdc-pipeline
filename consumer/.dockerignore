@@ -1,0 +1,5 @@
+__pycache__
+*.pyc
+*.log
+consumer-state.json
+consumer-state.tmp
