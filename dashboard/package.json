@@ -1,0 +1,18 @@
+{
+  "name": "cdc-dashboard",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Live CDC pipeline observability dashboard",
+  "scripts": {
+    "start": "node sever.js",
+    "check": "node --check sever.js && node --check monitor.js && node --check metrics.js && node --check public/app.js",
+    "test": "node --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "kafkajs": "2.2.4",
+    "pg": "8.16.3"
+  }
+}
