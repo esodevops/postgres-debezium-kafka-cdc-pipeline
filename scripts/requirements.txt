@@ -1,0 +1,6 @@
+psycopg2-binary>=2.9,<3
+Faker>=20,<40
+
+# Monitoring Script
+kafka-python==2.0.2
+Requests==2.32.3
